@@ -1,5 +1,25 @@
+# Python
 __pycache__/
 *.pyc
+
+# Environment
 .env
+
+# User uploads & outputs
 uploads/
 outputs/
+
+# Excel & data files (do not commit user data)
+*.xlsx
+*.csv
+
+# Images generated during analysis
+*.png
+
+# Tests & training
+ml/test_*.py
+ml/train_*.py
+
+# Old backend/frontend (not used in Streamlit)
+backend/
+frontend/
