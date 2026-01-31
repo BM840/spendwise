@@ -11,6 +11,8 @@ outputs/
 
 # Excel & data files (do not commit user data)
 *.xlsx
+!demo/*.xlsx
+
 *.csv
 
 # Images generated during analysis
